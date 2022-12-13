@@ -1,0 +1,18 @@
+@import './S1Repair/S1Repair.scss';
+@import './S2Repair/S2Repair.scss';
+.repair-3 .about-3 {
+  margin:120px 0px 0px 0px;
+  
+}
+@media screen and (max-width: 900px) {  
+  .repair-3 .about-3 {
+    margin: 60px 0px 0px 0px;
+    
+  }
+  }
+  @media screen and (max-width: 600px) {  
+    .repair-3 .about-3 {
+      margin: 30px 0px 0px 0px;
+      
+    }
+    }

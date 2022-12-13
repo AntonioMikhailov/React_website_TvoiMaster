@@ -1,0 +1,137 @@
+.home-8 {
+	padding:100px 0px 0px 0px;
+}
+.h8-title {
+	text-align:center;
+}
+.h8-comment__wrapper {
+  width: 100%;
+  
+	overflow:hidden;
+}
+ 
+
+.h8-comment__row {
+ 
+	position:relative;
+height: 100%;
+
+	 
+	margin-top:40px;
+ 
+}
+
+
+.h8-comment__column {
+ 
+	position:relative;
+ 
+height: 100%;
+ 
+	padding:0 10px;
+}
+.h8-comment__item {
+	background-color:#F5F5F5;
+	padding:60px 10px 30px 20px;
+	display:flex;
+	flex-direction:column;
+  height:370px;
+ 
+}
+.h8-commentItem__row {
+	display:flex;
+	align-items:center;
+}
+.h8-commentItem__image {
+	margin:0px 10px 0px 0px;
+}
+.h8-commentItem__title {
+	font-family:b;
+	font-size:18px;
+}
+.h8-commentItem__title span {
+	font-family:b;
+	font-size:18px;
+	color:#FF9800;
+}
+.h8-commentItem__text {
+	margin:20px 0px 0px 0px;
+}
+.h8-commentItem__Quote {
+	position:absolute;
+	top:20px;
+	right:30px;
+}
+.h8-indicator__row {
+	display:flex;
+	justify-content:center;
+	margin:30px 0px 0px 0px;
+}
+.h8-indicator__item {
+	cursor:pointer;
+	margin:0px 14px 0px 0px;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#cacaca;
+	transition:all 0.3s ease .0s;
+}
+.h8-indicator__item:last-child {
+	margin:0px 0px 0px 0px;
+}
+.h8-indicator__item:hover {
+	background-color:#FF9800;
+}
+.indicator-active {
+	background-color:#FF9800;
+}
+.hide-indicator {
+	display:none;
+}
+
+@media screen and (max-width: 1100px) {  
+  .h8-comment__item {
+ 
+    height:420px;
+   
+  }
+  }
+  @media screen and (max-width: 1100px) {  
+    .h8-comment__item {
+   
+      height:450px;
+     
+    }
+    }
+    @media screen and (max-width: 950px) {  
+      .h8-comment__item {
+     
+        height:490px;
+       
+      }
+      }
+  
+    @media screen and (max-width: 850px) {  
+      .h8-comment__item {
+     
+        height:auto;
+       
+      }
+      }
+
+@media screen and (max-width:768px) {
+	.home-8 {
+	padding:60px 0px 0px 0px;
+}
+.h8-comment__column {
+	position:relative;
+	flex-basis:100%;
+	flex-shrink:0;
+	padding:0 10px;
+}
+}
+@media screen and (max-width:400px) {
+	.h8-comment__row {
+	margin-top:40px;
+}
+}

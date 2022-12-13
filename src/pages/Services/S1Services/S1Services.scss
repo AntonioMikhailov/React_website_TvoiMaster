@@ -1,0 +1,27 @@
+.services-1 {
+	padding:60px 0px 0px 0px;
+}
+.s1-title {
+}
+.s1-subTitle {
+	margin:10px 0px 30px 0px;
+}
+.s1-text {
+}
+.s1-image img {
+	width:100%;
+	margin:20px 0px 0px 0px;
+}
+@media screen and (max-width:768px) {
+	.services-1 {
+	padding:40px 0px 0px 0px;
+}
+}
+@media screen and (max-width:400px) {
+	.s1-title {
+	font-size:30px;
+}
+.s1-subTitle {
+	margin:10px 0px 20px 0px;
+}
+}

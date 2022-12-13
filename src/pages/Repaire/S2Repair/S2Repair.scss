@@ -1,0 +1,139 @@
+.repair-2 {
+	padding:100px 0px 0px 0px;
+}
+ 
+.r2-row {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -20px;
+	margin-top:60px;
+}
+.r2-column {
+	flex-basis:50%;
+	margin:0px 0px 90px 0px;
+}
+.r2-item {
+	padding:0 20px;
+	display:flex;
+	flex-direction:column;
+	height:100%;
+}
+ 
+.r2-item__title {
+	font-family:b;
+	font-size:25px;
+	text-transform:uppercase;
+	margin:30px 0px 20px 0px;
+}
+.r2-item__text {
+	margin:0px 0px 30px 0px;
+	height:100%;
+}
+.r2-item__list {
+	position:relative;
+	padding:0px 0px 0px 30px;
+	margin:0px 0px 10px 0px;
+	 
+}
+.r2-item__list::before {
+	content:'';
+	position:absolute;
+	top:2px;
+	left:0;
+	background:url("../../../assets/img/icons/check.svg") 0px 0px no-repeat;
+	width:20px;
+	height:20px;
+}
+.r2-item__line {
+	width:100%;
+	height:1px;
+	background-color:#D4D4D4;
+	margin:40px 0px 0px 0px;
+}
+.r2-item__buttonRow {
+	margin:30px 0px 0px 0px;
+	display:flex;
+	align-items:center;
+}
+.r2-item__buttonLeft {
+	display:flex;
+	align-items:center;
+	color:rgb(255,255,255);
+	padding:0px 10px 0px 10px;
+	background-color:#4A4A4A;
+	height:40px;
+	margin:0px 10px 0px 0px;
+	white-space:nowrap;
+}
+.r2-item__buttonLeft sup {
+	color:rgb(255,255,255);
+	margin:-10px 0px 0px 0px;
+}
+.r2-button__container {
+	height:40px;
+	border:2px solid #FF9800;
+	width:100%;
+}
+.r2-button__container:hover .button-row {
+	top:-40px;
+}
+.button-row {
+}
+.r2__buttonOne,.r2__buttonTwo {
+	height:40px;
+	width:100%;
+}
+.r2__buttonTwo {
+}
+@media screen and (max-width:768px) {
+	.repair-2 {
+	padding:80px 0px 0px 0px;
+}
+.r2-row {
+	margin-top:40px;
+}
+.r2-column {
+	flex-basis:100%;
+	margin:0px 0px 70px 0px;
+}
+.r2-item__title {
+	font-size:18px;
+	text-transform:uppercase;
+	margin:30px 0px 10px 0px;
+}
+.r2-item__icon img {
+	width:70px;
+}
+.r2-button__container {
+	width:200px;
+}
+}
+@media screen and (max-width:500px) {
+	.repair-2 {
+	padding:60px 0px 0px 0px;
+}
+.r2-column {
+	flex-basis:100%;
+	margin:0px 0px 60px 0px;
+}
+.r2-item__title {
+	margin:20px 0px 10px 0px;
+}
+.r2-item__line {
+	margin:20px 0px 0px 0px;
+}
+.r2-button__container {
+	width:200px;
+}
+}
+@media screen and (max-width:400px) {
+	.repair-2 {
+	padding:40px 0px 0px 0px;
+}
+.r2-item__buttonLeft {
+	font-size:14px;
+}
+.r2-button__container {
+	width:120px;
+}
+}

@@ -1,0 +1,99 @@
+.about-1 {
+	padding:60px 0px 0px 0px;
+}
+.a1-title {
+}
+.a1-text {
+	margin:20px 0px 60px 0px;
+}
+.a1-row {
+	display:flex;
+	margin:0 -20px;
+}
+.a1-left {
+	flex-basis:70%;
+	padding:0 20px;
+}
+.a1-left__image img {
+	width:100%;
+	margin:0px 0px 40px 0px;
+}
+.a1-left__text {
+}
+.a1-right {
+	flex-basis:30%;
+	padding:0 20px;
+}
+.a1-right__formRow {
+	width:100%;
+	background-color:#F5F5F5;
+	padding:40px 20px 60px 20px;
+}
+.a1-right__title {
+}
+.a1-right__text {
+	margin:10px 0px 20px 0px;
+	font-size:16px;
+}
+.a1-right__input {
+	width:100%;
+	height:40px;
+	margin:0px 0px 10px 0px;
+}
+.a1-right__textarea {
+	width:100%;
+	height:100px;
+	background-color:#fff;
+	border:none;
+}
+.a1-button__container {
+	margin:50px 0px 0px 0px;
+	height:40px;
+	width:100%;
+}
+.a1-button__container:hover .button-row {
+	top:-100%;
+}
+.button-row {
+	width:100%;
+}
+.a1__buttonOne,.a1__buttonTwo {
+	height:40px;
+	width:100%;
+	font-size:14px;
+	letter-spacing:0.05rem;
+}
+@media screen and (max-width:900px) {
+	.a1-left {
+	flex-basis:60%;
+}
+.a1-right {
+	flex-basis:40%;
+}
+.a1__buttonOne,.a1__buttonTwo {
+	font-size:12px;
+}
+}
+@media screen and (max-width:768px) {
+	.about-1 {
+	padding:40px 0px 0px 0px;
+}
+.a1-text {
+	margin:20px 0px 40px 0px;
+}
+}
+@media screen and (max-width:600px) {
+	.a1-row {
+	display:flex;
+	flex-direction:column;
+}
+.a1-right {
+	margin:30px 0px 0px 0px;
+}
+.a1-right__formRow {
+	padding:30px 20px 30px 20px;
+}
+.a1-button__container {
+	margin:30px 0px 0px 0px;
+}
+}

@@ -1,0 +1,138 @@
+.home-7 .slick-list
+{
+    position: relative;
+   display: block;
+    overflow: hidden;
+ margin: 0px 0px 0px 0px;
+}
+
+.home-7 {
+ 
+	padding:100px 0px 0px 0px;
+}
+.h7-title {
+	margin:0 auto;
+	text-align:center;
+}
+.h7-sectionName__row {
+  
+	margin:0 auto;
+	max-width:900px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.gallery-title__row {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+ 
+ 
+.h7-sectionName_title {
+ 
+	font-size:18px;
+	font-family:b;
+	text-transform:uppercase;
+	padding:0px 10px 0px 10px;
+	border-bottom:2px solid #ff990000;
+	line-height:150%;
+	cursor:pointer;
+	transition:all 0.3s ease .0s;
+	margin-bottom:10px;
+}
+.sectionName__active {
+	border-bottom:2px solid #FF9800;
+	line-height:150%;
+	color:#FF9800;
+}
+.h7-sectionName_title:hover {
+	border-bottom:2px solid #FF9800;
+	color:#FF9800;
+	line-height:150%;
+}
+.imageRow_wrapper {
+  position: relative;
+}
+ 
+.h7-imageRow  {
+ position: absolute;
+ top:0;
+	display:flex;
+  flex-wrap:wrap;
+	margin:0 -10px;
+ transition:all  .3s ease .0s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.h7-imageRow__active {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  }
+
+ .gallery-imageAll {
+	flex-basis:20%;
+	padding:0 10px;
+	margin:0px 0px 20px 0px;
+	cursor:pointer;
+	transition:all 0.3s ease .0s;
+}
+ .gallery-imageAll img {
+	width:100%;
+}
+ .gallery-imageAll:hover {
+	transform:scale(1.05);
+}
+.hide {
+	transition:all .3s ease .0s;
+	opacity:0;
+	visibility:hidden;
+}
+ 
+@media screen and (max-width:768px) {
+	.home-7 {
+	padding:80px 0px 0px 0px;
+}
+.h7-sectionName__row {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.h7-sectionName_title {
+	font-size:14px;
+	line-height:150%;
+}
+ .gallery-imageAll {
+	flex-basis:25%;
+	padding:0 10px;
+}
+}
+@media screen and (max-width:600px) {
+	.h7-sectionName_title {
+	font-size:12px;
+	line-height:150%;
+}
+ .gallery-imageAll {
+	flex-basis:33.3%;
+	padding:0 10px;
+}
+}
+@media screen and (max-width:530px) {
+	.home-7 {
+	padding:50px 0px 0px 0px;
+}
+.gallery-title__row {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+ .gallery-imageAll {
+	flex-basis:50%;
+	padding:0 5px;
+	margin:0px 0px 10px 0px;
+}
+.h7-image__row {
+	display:flex;
+	margin:0 -5px;
+}
+}

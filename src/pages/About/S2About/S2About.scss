@@ -1,0 +1,148 @@
+.about-2 {
+	background-color:#FF9800;
+	margin:300px 0px 0px 0px;
+}
+.a2-row {
+	display:flex;
+}
+.a2-left {
+	flex-basis:65%;
+	padding:40px 0px 40px 0px;
+}
+.a2-left__title {
+	color:rgb(255,255,255);
+}
+.a2-left__text {
+	margin:30px 0px 0px 0px;
+	color:rgb(255,255,255);
+}
+.a2-button__container {
+	border:2px solid rgb(255,255,255);
+	width:400px;
+	margin:40px 0px 0px 0px;
+}
+.a2__buttonOne {
+	display:flex;
+	align-items:center;
+	width:400px;
+	background-color:#fff;
+	color:#1E1D23;
+}
+.a2__buttonOne::before {
+	content:'\e902';
+	font-family:s;
+	color:#FF9800;
+	font-size:24px;
+	margin:0px 0px 0px 0px;
+ padding:0px 20px 0px 0px;
+}
+.btnOne {
+}
+.a2__buttonTwo {
+	display:flex;
+	align-items:center;
+	width:400px;
+	background-color:transparent;
+	color:#ffffff;
+}
+.a2__buttonTwo::before {
+	content:'\e902';
+	font-family:s;
+	color:#ffffff;
+	font-size:24px;
+	margin:0px 0px 0px 0px;
+ padding:0px 20px 0px 0px;
+}
+.btnTwo {
+}
+.a2-right {
+	position:relative;
+	flex-basis:35%;
+}
+.a2-right img {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+ width:100%;
+	object-fit:cover;
+}
+@media screen and (max-width:1100px) {
+	.a2-left {
+	flex-basis:60%;
+	padding:40px 0px 40px 0px;
+}
+.a2-right {
+	position:relative;
+	flex-basis:40%;
+}
+}
+@media screen and (max-width:900px) {
+	.a2-left {
+	flex-basis:50%;
+	padding:40px 0px 40px 0px;
+}
+.a2-right {
+	position:relative;
+	flex-basis:50%;
+}
+}
+@media screen and (max-width:768px) {
+	.about-2 {
+	margin:200px 0px 0px 0px;
+}
+.a2-left {
+	flex-basis:20%;
+	padding:40px 0px 40px 0px;
+}
+.a2-button__container,.a2__buttonOne,.a2__buttonTwo {
+	width:350px;
+}
+.a2-right {
+	position:relative;
+	flex-basis:80%;
+}
+}
+@media screen and (max-width:620px) {
+	.about-2 {
+	margin:100px 0px 0px 0px;
+}
+.a2-row {
+	display:flex;
+	flex-wrap:wrap;
+}
+.a2-left {
+	flex-basis:100%;
+}
+.a2-right {
+	position:relative;
+	flex-basis:100%;
+	height:330px;
+}
+.a2-right img {
+	bottom:0px;
+	right:-30px;
+ width:100%;
+	width:300px;
+}
+}
+@media screen and (max-width:580px) {
+  .about-2 {
+    margin:60px 0px 0px 0px;
+  }
+	.a2-right {
+	height:300px;
+}
+.a2-right img {
+	width:230px;
+	right:0px;
+}
+}
+@media screen and (max-width:400px) {
+	.a2-button__container,.a2__buttonOne,.a2__buttonTwo {
+	width:250px;
+}
+.a2__buttonOne::before,.a2__buttonTwo::before {
+	font-size:18px;
+	padding:0px 10px 0px 0px;
+}
+}
